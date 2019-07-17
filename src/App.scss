@@ -1,0 +1,41 @@
+.app {
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  .graphic {
+    position: relative;
+    height: 150px;
+    background: #fff;
+    margin-bottom: 20px;
+
+    .record-outer {
+      height: inherit;
+      background: #000;
+      clip-path: circle(50%);
+
+      .record-inner {
+        height: inherit;
+        background: #fff;
+        clip-path: circle(5%);
+      }
+    }
+    .logo-text {
+      position: absolute;
+      right: 275px;
+      top: 60px;
+      font-weight: bold;
+      background: #fff;
+      color: #000;
+      font-size: 24px;
+    }
+    .app-description {
+      font-size: 10px;
+      line-height: 12px;
+      position: absolute;
+      right: 205px;
+      top: 95px;
+      width: 200px;
+      color: #fff;
+    }
+  }
+}
