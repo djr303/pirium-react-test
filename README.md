@@ -3,6 +3,11 @@
 node version: 12.2.0
 yarn version: 1.15.2
 
+# Start application
+```
+  yarn start
+```
+
 ## Things I would have like to have done:
 
 * There are a few TODO comments in the code which would highlight some issues
